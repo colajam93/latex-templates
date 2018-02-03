@@ -1,7 +1,6 @@
 \ProvidesPackage{mystylefile}
 \usepackage{pict2e}
 \usepackage[only,lbag,rbag]{stmaryrd}
-\usepackage{listings}
 
 % list concat
 \newcommand{\concat}{\mathbin{\mathpalette\conc@t\relax}}
@@ -31,19 +30,3 @@
 
 % hyphen
 \mathchardef\mhyphen="2D
-
-% listings
-\lstdefinestyle{BASE}
-{
-    frame=lines,
-    basicstyle=\footnotesize\ttfamily,
-    breaklines=true,
-    numbers=left
-}
-
-\lstdefinestyle{HASKELL}
-{
-    style=BASE,
-    mathescape=false,
-    language=Haskell
-}
