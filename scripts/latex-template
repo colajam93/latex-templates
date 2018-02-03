@@ -3,7 +3,7 @@
 latex_templates_dir=$HOME/.local/share/latex-templates
 
 if [[ $# -ne 2 ]]; then
-    echo "$0 report|slide NAME"
+    echo "$0 paper|slide NAME"
     exit 1
 fi
 

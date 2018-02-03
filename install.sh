@@ -14,7 +14,7 @@ safe_install $script_dir/templates/Makefile-assets $latex_templates_dir
 safe_install $script_dir/templates/gitignore $latex_templates_dir
 safe_install $script_dir/templates/latexmkrc $latex_templates_dir
 safe_install $script_dir/templates/mystylefile.sty $latex_templates_dir
-safe_install $script_dir/templates/report.tex $latex_templates_dir
+safe_install $script_dir/templates/paper.tex $latex_templates_dir
 safe_install $script_dir/templates/slide.tex $latex_templates_dir
 
 safe_install $script_dir/scripts/latex-template $local_script_dir 755
