@@ -11,7 +11,7 @@ clean: check
 check:
 	@which perl > /dev/null
 	@which latexmk > /dev/null
-	@which platex > /dev/null
-	@which pbibtex > /dev/null
+	@which uplatex > /dev/null
+	@which upbibtex > /dev/null
 	@which dvipdfmx > /dev/null
 	@which biber > /dev/null
